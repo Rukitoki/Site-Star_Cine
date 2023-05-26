@@ -1,0 +1,59 @@
+body {
+    color: white;
+    background-image: url(../img/backgroundcine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: rgb(1, 1, 51);
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 30px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+header img{
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid blueviolet;
+}
+
+main img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid blueviolet;
+}
+
+h1{
+    color: blueviolet;
+}
+
+.center{
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(1, 1, 51, 0.7);
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  footer p {
+    margin-top: 2px;
+  }
